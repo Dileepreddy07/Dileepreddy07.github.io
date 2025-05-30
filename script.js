@@ -114,4 +114,28 @@ setInterval(() => {
     if (particles.length > 10) {
         particles[0].remove();
     }
-}, 5000); 
+}, 5000);
+
+// Handle scroll indicator visibility
+const scrollIndicator = document.querySelector('.scroll-indicator');
+let lastScrollTop = 0;
+
+window.addEventListener('scroll', () => {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+    if (scrollTop > 100) {
+        scrollIndicator.classList.add('hidden');
+    } else {
+        scrollIndicator.classList.remove('hidden');
+    }
+    
+    lastScrollTop = scrollTop;
+});
+
+// Add click handler to scroll indicator
+scrollIndicator.addEventListener('click', () => {
+    window.scrollTo({
+        top: window.innerHeight,
+        behavior: 'smooth'
+    });
+}); 
