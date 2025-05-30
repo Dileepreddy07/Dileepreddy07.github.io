@@ -1,0 +1,51 @@
+# Resume files
+resume.md
+resume_word.md
+Dileep_Reddy_Karumuri_Resume.docx
+DILEEP REDDY KARUMURI.docx
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Build outputs
+/dist
+/build
+/out
+
+# Cache directories
+.cache/
+.temp/
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*~ 
