@@ -18,6 +18,7 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+*.docx
 
 # Environment files
 .env
@@ -40,6 +41,14 @@ dist/
 build/
 /out
 
+# Resume agent app (generated PDFs + SQLite history)
+resume_agent_data/
+resume_agent/resume_agent_data/
+
+# Python
+__pycache__/
+*.pyc
+
 # Cache directories
 .cache/
 .temp/
@@ -53,4 +62,14 @@ build/
 # Temporary files
 *.tmp
 *.temp
-*~ 
+*~
+
+# --- Local-only: not published with GitHub Pages site ---
+# Markdown, notes, and resume tooling stay on this machine only.
+*.md
+docs/
+scripts/
+tailored/
+resume_agent/
+app.py
+requirements.txt

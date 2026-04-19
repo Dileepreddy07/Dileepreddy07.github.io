@@ -4,20 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dileep Reddy Karumuri - Enterprise Architect</title>
+    <meta name="description" content="Enterprise Architect and digital transformation leader in Savannah, GA. Cloud architecture, SAP, data platforms, and enterprise integration.">
+    <link rel="canonical" href="https://dileepreddy07.github.io/">
+    <meta name="theme-color" content="#667eea">
+    <meta property="og:title" content="Dileep Reddy Karumuri - Enterprise Architect">
+    <meta property="og:description" content="Enterprise Architect and digital transformation leader. Cloud architecture, SAP, data platforms, and enterprise integration.">
+    <meta property="og:url" content="https://dileepreddy07.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://dileepreddy07.github.io/profile.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dileep Reddy Karumuri - Enterprise Architect">
+    <meta name="twitter:description" content="Enterprise Architect and digital transformation leader. Cloud architecture, SAP, data platforms, and enterprise integration.">
+    <meta name="twitter:image" content="https://dileepreddy07.github.io/profile.jpg">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <!-- Navigation -->
-    <nav>
+    <nav aria-label="Primary">
         <div class="container">
-            <div class="logo">DILEEP KARUMURI</div>
-            <ul class="nav-links">
+            <div class="logo"><a href="#home">DILEEP KARUMURI</a></div>
+            <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-navigation">
+                <span class="sr-only">Open menu</span>
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+            <ul class="nav-links" id="primary-navigation">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#personal-projects">Personal</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -39,13 +58,14 @@
             <a href="#contact" class="cta-button">Let's Connect</a>
         </div>
         
-        <div class="scroll-indicator">
-            <i class="fas fa-chevron-down"></i>
+        <button type="button" class="scroll-indicator" aria-label="Scroll to the next section">
+            <i class="fas fa-chevron-down" aria-hidden="true"></i>
             <span>Scroll to explore</span>
-        </div>
+        </button>
     </section>
 
     <!-- About Section -->
+    <main id="main-content">
     <section id="about">
         <div class="container">
             <h2 class="section-title">About Me</h2>
@@ -94,7 +114,7 @@
             <h2 class="section-title">Technical Expertise</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3><i class="fas fa-cloud"></i> Cloud Platforms</h3>
+                    <h3><i class="fas fa-cloud" aria-hidden="true"></i> Cloud Platforms</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Microsoft Azure</span>
                         <span class="skill-tag">AWS</span>
@@ -105,7 +125,7 @@
                 </div>
                 
                 <div class="skill-category">
-                    <h3><i class="fas fa-cogs"></i> Enterprise Systems</h3>
+                    <h3><i class="fas fa-cogs" aria-hidden="true"></i> Enterprise Systems</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">SAP S/4HANA</span>
                         <span class="skill-tag">Oracle EBS</span>
@@ -116,7 +136,7 @@
                 </div>
                 
                 <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Development</h3>
+                    <h3><i class="fas fa-code" aria-hidden="true"></i> Development</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">React.js</span>
                         <span class="skill-tag">.NET Core</span>
@@ -127,7 +147,7 @@
                 </div>
                 
                 <div class="skill-category">
-                    <h3><i class="fas fa-database"></i> Data & Analytics</h3>
+                    <h3><i class="fas fa-database" aria-hidden="true"></i> Data & Analytics</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Power BI</span>
                         <span class="skill-tag">Tableau</span>
@@ -138,7 +158,7 @@
                 </div>
                 
                 <div class="skill-category">
-                    <h3><i class="fas fa-sitemap"></i> Architecture</h3>
+                    <h3><i class="fas fa-sitemap" aria-hidden="true"></i> Architecture</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">TOGAF</span>
                         <span class="skill-tag">Zachman</span>
@@ -149,7 +169,7 @@
                 </div>
                 
                 <div class="skill-category">
-                    <h3><i class="fas fa-tasks"></i> Project Management</h3>
+                    <h3><i class="fas fa-tasks" aria-hidden="true"></i> Project Management</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Agile</span>
                         <span class="skill-tag">Scrum</span>
@@ -182,7 +202,7 @@
                 <div class="experience-item">
                     <div class="experience-title">Lead Data Consultant</div>
                     <div class="experience-company">Verizon | Remote | Jan 2017 - Mar 2018</div>
-                    <p>Executed comprehensive data lake strategy for telecommunications data (50TB+), enabling advanced analytics for network optimization with <2 hour latency processing 2M+ daily transactions.</p>
+                    <p>Executed comprehensive data lake strategy for telecommunications data (50TB+), enabling advanced analytics for network optimization with under 2 hour latency processing 2M+ daily transactions.</p>
                 </div>
                 
                 <div class="experience-item">
@@ -201,7 +221,7 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                        <div class="project-icon"><i class="fas fa-cloud-upload-alt" aria-hidden="true"></i></div>
                         <h3>Cloud Migration & Modernization</h3>
                     </div>
                     <div class="project-content">
@@ -220,7 +240,7 @@
                 
                 <div class="project-card">
                     <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-sitemap"></i></div>
+                        <div class="project-icon"><i class="fas fa-sitemap" aria-hidden="true"></i></div>
                         <h3>Technology Consolidation</h3>
                     </div>
                     <div class="project-content">
@@ -239,7 +259,7 @@
                 
                 <div class="project-card">
                     <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-code"></i></div>
+                        <div class="project-icon"><i class="fas fa-code" aria-hidden="true"></i></div>
                         <h3>Full-Stack Development</h3>
                     </div>
                     <div class="project-content">
@@ -258,7 +278,7 @@
                 
                 <div class="project-card">
                     <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-robot"></i></div>
+                        <div class="project-icon"><i class="fas fa-robot" aria-hidden="true"></i></div>
                         <h3>Process Automation</h3>
                     </div>
                     <div class="project-content">
@@ -277,7 +297,7 @@
                 
                 <div class="project-card">
                     <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+                        <div class="project-icon"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
                         <h3>Data Analytics Platform</h3>
                     </div>
                     <div class="project-content">
@@ -296,7 +316,7 @@
                 
                 <div class="project-card">
                     <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+                        <div class="project-icon"><i class="fas fa-shield-alt" aria-hidden="true"></i></div>
                         <h3>Security & Compliance</h3>
                     </div>
                     <div class="project-content">
@@ -323,7 +343,7 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+                        <div class="project-icon"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
                         <h3>Financial Market Analysis Platform</h3>
                     </div>
                     <div class="project-content">
@@ -343,7 +363,7 @@
 
                 <div class="project-card">
                     <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-exchange-alt"></i></div>
+                        <div class="project-icon"><i class="fas fa-exchange-alt" aria-hidden="true"></i></div>
                         <h3>Enterprise AP/AR Partner Portal</h3>
                     </div>
                     <div class="project-content">
@@ -363,7 +383,7 @@
 
                 <div class="project-card">
                     <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-file-alt"></i></div>
+                        <div class="project-icon"><i class="fas fa-file-alt" aria-hidden="true"></i></div>
                         <h3>Enterprise Digital Forms Platform</h3>
                     </div>
                     <div class="project-content">
@@ -383,7 +403,7 @@
 
                 <div class="project-card">
                     <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-industry"></i></div>
+                        <div class="project-icon"><i class="fas fa-industry" aria-hidden="true"></i></div>
                         <h3>Smart Manufacturing Analytics Dashboard</h3>
                     </div>
                     <div class="project-content">
@@ -413,28 +433,28 @@
                     <h3>Let's Connect</h3>
                     <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
                     <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:dileepreddy380@gmail.com">dileepreddy380@gmail.com</a>
                     </div>
                     <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
+                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
                         <span>Savannah, Georgia</span>
                     </div>
                     <div class="contact-item">
-                        <i class="fas fa-phone"></i>
+                        <i class="fas fa-phone" aria-hidden="true"></i>
                         <a href="tel:+13613553298">+1 (361) 355-3298</a>
                     </div>
                     <div class="social-links">
-                        <a href="https://linkedin.com/in/dileepreddy07" target="_blank" class="social-link">
-                            <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/dileep-reddy-karumuri-47288a16a" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
                             <span>LinkedIn</span>
                         </a>
-                        <a href="https://github.com/Dileepreddy07" target="_blank" class="social-link">
-                            <i class="fab fa-github"></i>
+                        <a href="https://github.com/Dileepreddy07" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-github" aria-hidden="true"></i>
                             <span>GitHub</span>
                         </a>
-                        <a href="https://twitter.com/dileepreddy07" target="_blank" class="social-link">
-                            <i class="fab fa-twitter"></i>
+                        <a href="https://twitter.com/dileepreddy07" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
                             <span>Twitter</span>
                         </a>
                     </div>
@@ -442,16 +462,17 @@
             </div>
         </div>
     </section>
+    </main>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="social-links">
-                <a href="www.linkedin.com/in/dileep-reddy-karumuri-47288a16a" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/Dileepreddy07" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://twitter.com/dileepreddy07" target="_blank"><i class="fab fa-twitter"></i></a>
+            <div class="footer-social social-links">
+                <a href="https://www.linkedin.com/in/dileep-reddy-karumuri-47288a16a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://github.com/Dileepreddy07" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/dileepreddy07" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
             </div>
-            <p>&copy; 2024 Dileep Reddy Karumuri. All rights reserved.</p>
+            <p>&copy; 2026 Dileep Reddy Karumuri. All rights reserved.</p>
         </div>
     </footer>
 
