@@ -251,6 +251,32 @@ section {
     line-height: 1.8;
 }
 
+.education-content {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.75;
+    color: #444;
+}
+
+.education-content .education-degree {
+    font-weight: 700;
+    color: #333;
+    font-size: 1.15rem;
+    margin-bottom: 0.35rem;
+}
+
+.education-content .education-meta {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.education-content .education-coursework {
+    text-align: left;
+    margin-top: 1rem;
+}
+
 .stats {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -384,6 +410,33 @@ section {
     margin-bottom: 1rem;
 }
 
+.experience-item .experience-context {
+    color: #555;
+    font-size: 0.95rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.experience-item ul.experience-bullets {
+    margin: 0;
+    padding-left: 1.25rem;
+    color: #444;
+    line-height: 1.55;
+}
+
+.experience-item ul.experience-bullets li {
+    margin-bottom: 0.65rem;
+}
+
+.experience-item ul.experience-bullets li:last-child {
+    margin-bottom: 0;
+}
+
+.experience-item > p {
+    color: #444;
+    line-height: 1.55;
+}
+
 /* Projects Section */
 .projects {
     background: #f8f9ff;
@@ -392,6 +445,15 @@ section {
 /* Personal Projects Section */
 .personal-projects {
     background: white;
+}
+
+.personal-projects-lede {
+    text-align: center;
+    max-width: 640px;
+    margin: -1.5rem auto 2rem;
+    color: #666;
+    font-size: 1.05rem;
+    line-height: 1.6;
 }
 
 .personal-projects .project-card {
