@@ -3,531 +3,523 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dileep Reddy Karumuri - Enterprise Architect</title>
-    <meta name="description" content="Enterprise Architect in Savannah, GA. Multi-year roadmaps, architecture governance, SAP and supply chain integration at scale (50+ touchpoints), hybrid cloud, and stakeholder engagement across manufacturing and distribution.">
+    <title>Dileep Reddy Karumuri · Enterprise Architect</title>
+    <meta name="description" content="Enterprise Architect with 12+ years across SAP S/4HANA & BTP, enterprise architecture governance, and hands-on AI engineering (agentic systems, RAG, LangChain). Savannah, GA.">
     <link rel="canonical" href="https://dileepreddy07.github.io/">
-    <meta name="theme-color" content="#667eea">
-    <meta property="og:title" content="Dileep Reddy Karumuri - Enterprise Architect">
-    <meta property="og:description" content="Enterprise Architect: roadmaps and governance, SAP ecosystem and supply chain, enterprise integration at scale, hybrid cloud (Azure/AWS), and trusted partner to executives and vendors.">
+    <meta name="theme-color" content="#0b1020" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+    <meta property="og:title" content="Dileep Reddy Karumuri · Enterprise Architect">
+    <meta property="og:description" content="Enterprise Architect | SAP S/4HANA & BTP | AI-Enabled Enterprise Architecture. Builds architecture governance and ships hands-on: C#, ABAP, agentic AI.">
     <meta property="og:url" content="https://dileepreddy07.github.io/">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://dileepreddy07.github.io/profile.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Dileep Reddy Karumuri - Enterprise Architect">
-    <meta name="twitter:description" content="Enterprise Architect: roadmaps, governance, SAP/supply chain integration at scale, hybrid cloud, and executive stakeholder engagement.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Dileep Reddy Karumuri · Enterprise Architect">
+    <meta name="twitter:description" content="Enterprise Architect | SAP S/4HANA & BTP | AI-Enabled Enterprise Architecture.">
     <meta name="twitter:image" content="https://dileepreddy07.github.io/profile.jpg">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script>
+        // Apply saved theme before paint to avoid a flash
+        (function () {
+            try {
+                var t = localStorage.getItem('theme');
+                if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+            } catch (e) {}
+            document.documentElement.classList.add('js');
+        })();
+    </script>
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
-    <!-- Navigation -->
-    <nav aria-label="Primary">
-        <div class="container">
-            <div class="logo"><a href="#home">DILEEP KARUMURI</a></div>
-            <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-navigation">
-                <span class="sr-only">Open menu</span>
-                <i class="fas fa-bars" aria-hidden="true"></i>
-            </button>
+
+    <header class="site-header" id="site-header">
+        <nav class="container nav" aria-label="Primary">
+            <a href="#home" class="brand" aria-label="Dileep Reddy Karumuri, home">
+                <span class="brand-mark" aria-hidden="true">DK</span>
+                <span class="brand-name">Dileep Karumuri</span>
+            </a>
             <ul class="nav-links" id="primary-navigation">
-                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#personal-projects">Personal</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </div>
-    </nav>
+            <div class="nav-actions">
+                <button type="button" class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                </button>
+                <button type="button" class="icon-btn nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-navigation">
+                    <span class="sr-only">Open menu</span>
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        
-        <div class="hero-content">
-            <h1>Dileep Reddy Karumuri</h1>
-            <p class="subtitle">Enterprise Architect</p>
-            <p class="description">
-                Trusted advisor on multi-year roadmaps, architecture governance, and standards across SAP, supply chain,
-                and hybrid integration landscapes—aligning C-suite priorities with delivery, risk, and measurable outcomes
-                ($8M+ program scope, $2M+ documented savings).
-            </p>
-            <a href="#contact" class="cta-button">Let's Connect</a>
-        </div>
-        
-        <button type="button" class="scroll-indicator" aria-label="Scroll to the next section">
-            <i class="fas fa-chevron-down" aria-hidden="true"></i>
-            <span>Scroll to explore</span>
-        </button>
-    </section>
-
-    <!-- About Section -->
     <main id="main-content">
-    <section id="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="profile.jpg" alt="Dileep Reddy Karumuri" class="profile-picture">
-                </div>
-                <div class="about-text">
-                    <p>
-                        I am an Enterprise Architect with <strong>11+ years</strong> in enterprise and solution
-                        architecture, systems integration, and technical leadership across manufacturing, distribution, and wholesale.
-                        I align business priorities with target architecture, roadmaps, and delivery—serving as a primary liaison
-                        among operations, product, and IT for supply chain and enterprise systems.
+        <!-- Hero -->
+        <section id="home" class="hero">
+            <div class="hero-bg" aria-hidden="true"></div>
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Enterprise Architect · Savannah, GA</p>
+                    <h1>Dileep Reddy Karumuri</h1>
+                    <p class="tagline">
+                        <span>SAP S/4HANA &amp; BTP</span>
+                        <span>Enterprise Architecture</span>
+                        <span>AI-Enabled Engineering</span>
                     </p>
-                    <p>
-                        <strong>Core themes:</strong> Enterprise Architecture | Solution Architecture | SAP ecosystem (S/4, BTP, Integration) |
-                        Supply Chain &amp; Operations | Data Platforms &amp; Analytics | Integration &amp; APIs |
-                        Cloud (Azure / AWS) | Governance &amp; Standards | Stakeholder &amp; Partner Engagement |
-                        Manufacturing &amp; OT Integration | Security &amp; Compliance
+                    <p class="lede">
+                        I build enterprise architecture functions from the ground up and still write the code:
+                        governance and Clean Core on one side, C#, ABAP and agentic AI on the other.
                     </p>
-                    <p>
-                        Based in Savannah, Georgia, I partner with executives and vendors on transformation programs, technical standards,
-                        and documentation (including technical decision records)—and mentor cross-functional teams toward predictable delivery.
-                    </p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Get in touch <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                        <a href="#experience" class="btn btn-ghost">View experience</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://www.linkedin.com/in/dileep-reddy-karumuri-47288a16a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                        <a href="https://github.com/Dileepreddy07" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        <a href="mailto:dileepreddy380@gmail.com" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+                    </div>
                 </div>
-            </div>
-            
-            <div class="stats">
-                <div class="stat-item">
-                    <div class="stat-number">11+</div>
-                    <div>Years Experience</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">$2M+</div>
-                    <div>Documented Savings Initiatives</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">50+</div>
-                    <div>System Integrations (Concurrent)</div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Education Section -->
-    <section id="education">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="education-content">
-                <p class="education-degree">Master of Science in Engineering</p>
-                <p class="education-meta">Texas A&amp;M University · December 2015 – December 2017</p>
-                <p class="education-coursework">
-                    <strong>Relevant coursework:</strong> Data Analytics, Enterprise Architecture, Systems Engineering,
-                    Software Architecture, Systems Integration
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Technical Expertise</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3><i class="fas fa-truck" aria-hidden="true"></i> Supply Chain &amp; Planning</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Order-to-Fulfillment</span>
-                        <span class="skill-tag">SAP TM</span>
-                        <span class="skill-tag">SAP IBP</span>
-                        <span class="skill-tag">ERP–WMS</span>
-                        <span class="skill-tag">MES–Planning</span>
-                        <span class="skill-tag">WMS</span>
+                <div class="hero-visual">
+                    <div class="portrait">
+                        <img src="profile.jpg" alt="Portrait of Dileep Reddy Karumuri" width="320" height="320">
                     </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-cogs" aria-hidden="true"></i> SAP Ecosystem</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">SAP Business ByDesign</span>
-                        <span class="skill-tag">S/4HANA Public Cloud</span>
-                        <span class="skill-tag">SAP HANA</span>
-                        <span class="skill-tag">SAP BTP</span>
-                        <span class="skill-tag">Integration Suite (CPI)</span>
-                        <span class="skill-tag">SAP CAP</span>
-                        <span class="skill-tag">SAP Ariba</span>
-                        <span class="skill-tag">Oracle EBS</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-plug" aria-hidden="true"></i> Integration &amp; Automation</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">APIs &amp; API Gateways</span>
-                        <span class="skill-tag">EDI (ASN, Invoices)</span>
-                        <span class="skill-tag">Microservices</span>
-                        <span class="skill-tag">Event-Driven Patterns</span>
-                        <span class="skill-tag">GitLab CI/CD</span>
-                        <span class="skill-tag">Azure DevOps</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-cloud" aria-hidden="true"></i> Cloud &amp; Data</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Microsoft Azure</span>
-                        <span class="skill-tag">AWS</span>
-                        <span class="skill-tag">Azure SQL / Elastic Pools</span>
-                        <span class="skill-tag">Data Lakes / Warehouses</span>
-                        <span class="skill-tag">ETL / ELT</span>
-                        <span class="skill-tag">Hadoop</span>
-                        <span class="skill-tag">SQL Server</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-industry" aria-hidden="true"></i> Manufacturing &amp; OT</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Rockwell FactoryTalk</span>
-                        <span class="skill-tag">ERP-to-OT</span>
-                        <span class="skill-tag">IoT / PLC</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">VMware</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-database" aria-hidden="true"></i> Data &amp; Analytics</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Power BI</span>
-                        <span class="skill-tag">Tableau</span>
-                        <span class="skill-tag">Informatica</span>
-                        <span class="skill-tag">Data Governance</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-sitemap" aria-hidden="true"></i> Architecture &amp; Delivery</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">TOGAF-Aware Practice</span>
-                        <span class="skill-tag">Zachman</span>
-                        <span class="skill-tag">Agile</span>
-                        <span class="skill-tag">ITIL</span>
-                        <span class="skill-tag">Lean Six Sigma</span>
-                        <span class="skill-tag">TDRs &amp; Standards</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-code" aria-hidden="true"></i> Development</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">React.js</span>
-                        <span class="skill-tag">.NET Core</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">JavaScript</span>
+                    <div class="status-card">
+                        <span class="status-label"><span class="pulse" aria-hidden="true"></span> Currently</span>
+                        <span class="status-text">Executing the SAP Rise (S/4HANA Public Cloud) rollout with a Clean Core approach</span>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Experience Section -->
-    <section id="experience">
-        <div class="container">
-            <h2 class="section-title">Professional Experience</h2>
-            <div class="experience-timeline">
-                <div class="experience-item">
-                    <div class="experience-title">Enterprise Architect</div>
-                    <div class="experience-company">MacroSource LLC | Savannah, GA | Sep 2019 – Present</div>
-                    <p class="experience-context">Fertilizer wholesaler: import and distribution to cooperatives.</p>
-                    <ul class="experience-bullets">
-                        <li>Primary architecture liaison between operations, product, and IT for supply chain and enterprise systems; own multi-year roadmap aligned with C-suite objectives; lead transition to standardized, composable platforms (25% improvement in IT–business alignment, <strong>$8M+ budget</strong> scope).</li>
-                        <li>Coordinate priorities across <strong>50+ concurrent system integrations</strong>; reduce conflict and rework through shared design principles, documentation, and technical decision records.</li>
-                        <li><strong>SAP:</strong> Business ByDesign; program to <strong>S/4HANA Public Cloud</strong> (planned go-live July 2026) with <strong>SAP TM</strong>; govern <strong>SAP Integration Suite (CPI)</strong> and <strong>SAP CAP</strong> extensions on <strong>BTP</strong>; evaluate <strong>Ariba</strong>; <strong>EDI</strong> for ASN and supplier invoices into SAP.</li>
-                        <li>End-to-end solution architecture for hybrid landscapes—<strong>SAP, Oracle EBS, Rockwell FactoryTalk, WMS</strong>; ERP-to-OT, ERP-to-WMS, and MES-to-planning; <strong>99.8% data consistency</strong> across integrations; API gateways, middleware, Docker/VMware.</li>
-                        <li><strong>Azure/AWS</strong> hybrid migration; standards for security, compliance, and performance (<strong>99.9% uptime</strong>, DR <strong>RTO 2 hours</strong>). Enterprise data warehouse and pipelines (<strong>500GB+ daily</strong>, <strong>15+ business units</strong>); Power BI and Tableau for <strong>300+ users</strong>.</li>
-                        <li>Partner with SAP, Oracle, Rockwell, WMS, and cloud providers; manage cross-functional teams of <strong>15–20</strong>; CI/CD via <strong>GitLab</strong> and <strong>Azure DevOps</strong>; <strong>$2M+</strong> in documented savings; consolidated <strong>15+ systems</strong> (<strong>$150K</strong> annual licensing reduction).</li>
+            <div class="container">
+                <dl class="stats">
+                    <div class="stat"><dt>Years in enterprise architecture &amp; SAP</dt><dd>12+</dd></div>
+                    <div class="stat"><dt>Global entities under one architecture</dt><dd>7</dd></div>
+                    <div class="stat"><dt>Technology budget stewarded</dt><dd>$8M+</dd></div>
+                    <div class="stat"><dt>Total cost savings delivered</dt><dd>$2M+</dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="container">
+                <header class="section-head">
+                    <p class="kicker">01 · About</p>
+                    <h2>Architecture governance <em>and</em> hands-on depth</h2>
+                </header>
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <p>
+                            I'm an Enterprise Architect with <strong>12+ years</strong> of experience building and running
+                            enterprise architecture, SAP transformation, and AI governance functions. Today I serve as the
+                            de facto Enterprise Architecture lead for a multinational manufacturing and distribution group:
+                            <strong>7 global entities</strong>, an <strong>$8M+ technology budget</strong>, reporting directly to the C-suite.
+                        </p>
+                        <p>
+                            After an organizational separation, I built the Enterprise Architecture function, Architecture Review Board
+                            governance, and AI governance practice from scratch, with no playbook to inherit. I pair deep SAP S/4HANA and BTP architecture
+                            with hands-on development in C# and ABAP and modern AI engineering: agentic systems, RAG, and LangChain.
+                        </p>
+                        <p class="edu-line">
+                            <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                            <span><strong>MS Engineering</strong>, Texas A&amp;M University, Dec 2017</span>
+                        </p>
+                    </div>
+                    <div class="pillars">
+                        <article class="pillar reveal">
+                            <div class="pillar-icon"><i class="fas fa-sitemap" aria-hidden="true"></i></div>
+                            <h3>Architecture &amp; Governance</h3>
+                            <p>Chairs the ARB, enforces Clean Core, and set up reference architecture standards and a Sparx EA portfolio landscape.</p>
+                        </article>
+                        <article class="pillar reveal">
+                            <div class="pillar-icon"><i class="fas fa-cubes" aria-hidden="true"></i></div>
+                            <h3>SAP S/4HANA &amp; BTP</h3>
+                            <p>Greenfield S/4HANA Private Cloud delivered; S/4HANA Public Cloud (Rise) rollout underway, extended on BTP.</p>
+                        </article>
+                        <article class="pillar reveal">
+                            <div class="pillar-icon"><i class="fas fa-robot" aria-hidden="true"></i></div>
+                            <h3>AI Engineering</h3>
+                            <p>AI coding agents in production SAP BTP, MCP-style tool calling, multi-agent LangChain systems, and governed AI rollouts.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="section section-alt">
+            <div class="container">
+                <header class="section-head">
+                    <p class="kicker">02 · Experience</p>
+                    <h2>Where I've built things</h2>
+                </header>
+
+                <ol class="timeline">
+                    <li class="role reveal">
+                        <div class="role-meta">
+                            <span class="role-dates">Sep 2019 – Present</span>
+                            <span class="role-loc">Savannah, GA</span>
+                        </div>
+                        <div class="role-card">
+                            <h3 class="role-title">Enterprise Architect / IT Architect</h3>
+                            <p class="role-company">MacroSource LLC / MicroSource LLC</p>
+                            <p class="role-context">
+                                A multinational fertilizer group with 400+ employees and 7 global entities (US, Peru, Mexico, South Africa, Paraguay, Colombia, Hong Kong),
+                                spanning manufacturing (chemical blending, batching, packaging) and wholesale distribution. I act as the Enterprise Architecture and ERP CoE lead, reporting to the C-suite.
+                            </p>
+
+                            <ul class="metrics" aria-label="Key results">
+                                <li><strong>15+</strong><span>systems consolidated</span></li>
+                                <li><strong>$150K</strong><span>annual savings</span></li>
+                                <li><strong>$2M+</strong><span>total savings</span></li>
+                                <li><strong>100%</strong><span>on-time delivery</span></li>
+                            </ul>
+
+                            <div class="highlight-groups">
+                                <div class="hl-group">
+                                    <h4><i class="fas fa-cubes" aria-hidden="true"></i> SAP transformation</h4>
+                                    <ul>
+                                        <li>Led technical discovery and stakeholder evaluation for the move from legacy SAP to S/4HANA Cloud, then led the greenfield <strong>S/4HANA Private Cloud</strong> implementation (including full SD configuration), migrating off Oracle EBS/AS400 and SAP ByDesign.</li>
+                                        <li>Executing the <strong>SAP Rise (S/4HANA Public Cloud)</strong> rollout: Clean Core, custom logic via released BADIs, on-stack extensibility.</li>
+                                        <li>Serve on the steering committee for S/4HANA and other major programs, contributing technical design and cutover planning.</li>
+                                    </ul>
+                                </div>
+                                <div class="hl-group">
+                                    <h4><i class="fas fa-sitemap" aria-hidden="true"></i> Architecture &amp; governance</h4>
+                                    <ul>
+                                        <li>Built the EA function from scratch after the organizational separation: ARB governance, reference architecture standards, and a Sparx EA portfolio landscape.</li>
+                                        <li>Chair the <strong>Architecture Review Board</strong>: approve custom code requests, enforce Clean Core, and steer teams to BTP extensions instead of core modification.</li>
+                                        <li>Architected SAP identity federation with Azure SSO and role-segregation models based on business roles.</li>
+                                        <li>Own system resilience: sizing, failover design, and DR readiness, reviewed through ongoing technical audits.</li>
+                                    </ul>
+                                </div>
+                                <div class="hl-group">
+                                    <h4><i class="fas fa-brain" aria-hidden="true"></i> Data &amp; AI</h4>
+                                    <ul>
+                                        <li>Deployed AI coding agents (<strong>Claude Code, Cursor</strong>) in production SAP BTP using MCP-style tool calling over OData/BAPI interfaces.</li>
+                                        <li>Led the enterprise evaluation, procurement and governed rollout of <strong>Claude for Work</strong> and <strong>Microsoft Copilot</strong>, working through Legal review, Internal Audit AI guidelines and KnowBe4 safety training.</li>
+                                        <li>Architected an Azure-native data platform (Azure SQL, Data Factory, with SAC, OneStream and Power BI on top), chosen after evaluating Databricks and a lakehouse design.</li>
+                                        <li>Use embedded AI (SAP Joule, SAC) and am evaluating a move from standalone SAC to SAP Business Data Cloud.</li>
+                                    </ul>
+                                </div>
+                                <div class="hl-group">
+                                    <h4><i class="fas fa-code" aria-hidden="true"></i> Integration &amp; engineering</h4>
+                                    <ul>
+                                        <li>Develop and maintain C# applications for third-party and legacy integrations, including bank systems (SAP Multi-Bank Connectivity, NACHA/ACH, BAI2/MT940).</li>
+                                        <li>Delivered an <strong>Intelligent Receivables</strong> program with automated payment allocation, improving Order-to-Cash.</li>
+                                        <li>Integrated the JJ Keller and Motiv fleet platforms to track fleet activity and violation mileage for OOPS safety reporting.</li>
+                                        <li>Onboarded <strong>80%</strong> of customers onto a REST-based enterprise portal with EDI integration.</li>
+                                        <li>Built the <a href="#projects">Sales Cockpit and Purchasing Cockpit</a>, single-screen SAP order entry for customer service and buyers (~70% less time per sales order).</li>
+                                        <li>Redesigned SAP-to-truck-scale integration for 30 warehouse sites as the <a href="#projects">Kahler Integration Hub</a>: one central hub with a lightweight agent per site and a single monitoring dashboard (30 systems down to 1).</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <p class="role-foot">
+                                Led engineering teams and BI architects across OneStream XF, S/4HANA, SAC and Power BI, and managed distributed teams in India, Colombia and Mexico.
+                            </p>
+
+                            <div class="chips" aria-label="Platforms owned">
+                                <span>S/4HANA Private &amp; Public Cloud</span><span>SAP BTP</span><span>CPI / Integration Suite</span><span>Event Mesh</span><span>API Management</span><span>SAP IBP / TM / MM / WM / PP / FI / CO</span><span>SAC</span><span>SAP Joule</span><span>OneStream XF</span><span>Ironclad CLM</span><span>Microsoft Fabric</span><span>Azure SQL / ADF / Entra ID</span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="role reveal">
+                        <div class="role-meta">
+                            <span class="role-dates">Mar 2018 – Sep 2019</span>
+                            <span class="role-loc">Warsaw, IN</span>
+                        </div>
+                        <div class="role-card">
+                            <h3 class="role-title">Lead SAP / Data Architect</h3>
+                            <p class="role-company">Zimmer Biomet</p>
+                            <p class="role-context">Global medical device manufacturer. Contract engagement via KPMG (primary SI), in client-facing architecture sessions with the CIO and IT leadership. FDA, GxP and SOX regulated.</p>
+                            <ul class="bullets">
+                                <li>Architected S/4HANA, IBP, HANA and Oracle EBS integration for a 300+ user, multi-BU enterprise data warehouse (500GB+ daily), making reporting <strong>60% faster</strong>.</li>
+                                <li>Led SAP HANA and BW/4HANA data modeling for real-time analytics across 15+ business units.</li>
+                                <li>Established data governance and quality frameworks meeting FDA and SOX standards.</li>
+                                <li>Mentored 8 engineers and architects, with a <strong>95%</strong> delivery success rate.</li>
+                            </ul>
+                            <div class="chips"><span>S/4HANA</span><span>IBP</span><span>HANA</span><span>BW/4HANA</span><span>Oracle EBS</span></div>
+                        </div>
+                    </li>
+
+                    <li class="role reveal">
+                        <div class="role-meta">
+                            <span class="role-dates">Jan 2017 – Mar 2018</span>
+                            <span class="role-loc">Remote</span>
+                        </div>
+                        <div class="role-card">
+                            <h3 class="role-title">Lead Data Consultant</h3>
+                            <p class="role-company">Verizon</p>
+                            <ul class="bullets">
+                                <li>Architected a <strong>50TB+</strong> enterprise data lake with Hadoop and ML pipelines handling 2M+ daily transactions at under 2 hours of latency.</li>
+                                <li>Established GDPR compliance frameworks adopted by 50+ engineers.</li>
+                                <li>Managed a <strong>$2M+</strong> budget with 100% on-time delivery.</li>
+                            </ul>
+                            <div class="chips"><span>Hadoop</span><span>Data Lake</span><span>ML Pipelines</span><span>GDPR</span></div>
+                        </div>
+                    </li>
+
+                    <li class="role reveal">
+                        <div class="role-meta">
+                            <span class="role-dates">Apr 2013 – Dec 2016</span>
+                            <span class="role-loc">Bengaluru, India</span>
+                        </div>
+                        <div class="role-card">
+                            <h3 class="role-title">Senior Solutions Architect</h3>
+                            <p class="role-company">Brainsys Technologies Pvt Ltd</p>
+                            <p class="role-context">Enterprise software consultancy. Client-facing SAP and Oracle architect on multi-client ERP engagements with 5,000+ concurrent users.</p>
+                            <ul class="bullets">
+                                <li>Implemented SAP ECC solutions tailored to each client's business processes.</li>
+                                <li>Designed and built in-house EDI integration tools and enterprise EDI solutions, extending cXML and API-led integration patterns.</li>
+                                <li>Built in-house analytics templates for financial and operational planning.</li>
+                                <li>Contributed technical input to pre-sales implementation proposals.</li>
+                            </ul>
+                            <div class="chips"><span>SAP ECC</span><span>Oracle ERP</span><span>EDI / cXML</span><span>APIs</span></div>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <div class="container">
+                <header class="section-head">
+                    <p class="kicker">03 · Projects</p>
+                    <h2>Featured builds</h2>
+                    <p class="section-lede">Tools I've built for MacroSource operations, alongside independent AI, data and platform work.</p>
+                </header>
+
+                <div class="filters" role="group" aria-label="Filter projects">
+                    <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All</button>
+                    <button type="button" class="filter" data-filter="enterprise" aria-pressed="false">MacroSource</button>
+                    <button type="button" class="filter" data-filter="ai" aria-pressed="false">AI &amp; data</button>
+                    <button type="button" class="filter" data-filter="platform" aria-pressed="false">Platforms</button>
+                </div>
+
+                <div class="featured-grid">
+                    <article class="project project-feature reveal" data-cat="enterprise">
+                        <div class="project-top">
+                            <span class="project-icon"><i class="fas fa-cart-shopping" aria-hidden="true"></i></span>
+                            <span class="project-cat project-org">MacroSource · Enterprise app</span>
+                        </div>
+                        <h3>Sales Cockpit</h3>
+                        <p class="project-sub">Faster order entry for customer service</p>
+                        <p>Reps created sales orders against contracts one at a time across several SAP screens, so 300 orders a day meant 300 separate sessions. Now they enter a contract number, see everything left on it, and create multiple validated orders in one step. The cockpit also handles freight purchasing, deliveries, and a live link to warehouse scales.</p>
+                        <div class="impact">
+                            <div><strong>~70%</strong><span>less time per order</span></div>
+                            <div><strong>25+ hrs</strong><span>saved per day at full volume</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project project-feature reveal" data-cat="enterprise">
+                        <div class="project-top">
+                            <span class="project-icon"><i class="fas fa-truck-ramp-box" aria-hidden="true"></i></span>
+                            <span class="project-cat project-org">MacroSource · Enterprise app</span>
+                        </div>
+                        <h3>Purchasing Cockpit</h3>
+                        <p class="project-sub">One place for buyers</p>
+                        <p>The Sales Cockpit approach, applied to procurement: bulk ordering against supplier contracts, open PO tracking, delivery recording and supplier performance on one screen. It walks buyers through inter-plant stock transfers that used to take several SAP screens in a strict sequence.</p>
+                        <div class="impact">
+                            <div><strong>1 screen</strong><span>replaces a multi-transaction flow</span></div>
+                            <div><strong>Guided</strong><span>inter-plant stock transfers</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project project-feature reveal" data-cat="enterprise">
+                        <div class="project-top">
+                            <span class="project-icon"><i class="fas fa-network-wired" aria-hidden="true"></i></span>
+                            <span class="project-cat project-org">MacroSource · Integration</span>
+                        </div>
+                        <h3>Kahler Integration Hub</h3>
+                        <p class="project-sub">Linking SAP to 30 warehouse sites</p>
+                        <p>Each of 30 sites had its own SAP-to-truck-scale connection, so failures were diagnosed site by site with no shared view. The redesign uses one central hub with a lightweight agent per location. Orders flow to the scales, weights flow back almost immediately, and one dashboard shows every site.</p>
+                        <div class="impact">
+                            <div><strong>30 → 1</strong><span>systems to maintain</span></div>
+                            <div><strong>Real-time</strong><span>errors caught as they happen</span></div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project reveal" data-cat="ai">
+                        <div class="project-top">
+                            <span class="project-icon"><i class="fas fa-diagram-project" aria-hidden="true"></i></span>
+                            <span class="project-cat">AI · Agentic</span>
+                        </div>
+                        <h3>Multi-Agent Stock Analysis Platform</h3>
+                        <p>Specialized LangChain agents for market analysis, social sentiment and report synthesis work together to produce analyst-style investment reports, modeled on a hedge fund research team.</p>
+                        <div class="chips"><span>LangChain</span><span>Multi-agent</span><span>LLMs</span></div>
+                    </article>
+
+                    <article class="project reveal" data-cat="ai">
+                        <div class="project-top">
+                            <span class="project-icon"><i class="fas fa-magnifying-glass-chart" aria-hidden="true"></i></span>
+                            <span class="project-cat">AI · RAG</span>
+                        </div>
+                        <h3>Retrieval-Augmented Generation Apps</h3>
+                        <p>RAG applications that apply LLMs to real-world retrieval and question answering, built hands-on with embeddings, retrieval pipelines and orchestration logic.</p>
+                        <div class="chips"><span>RAG</span><span>Embeddings</span><span>Vector retrieval</span></div>
+                    </article>
+
+                    <article class="project reveal" data-cat="ai">
+                        <div class="project-top">
+                            <span class="project-icon"><i class="fas fa-chart-line" aria-hidden="true"></i></span>
+                            <span class="project-cat">Streaming · ML</span>
+                        </div>
+                        <h3>Financial Market Analysis Platform</h3>
+                        <p>Event-driven architecture with Kafka for real-time streaming and TensorFlow for predictive modeling. A streaming data pipeline built outside the SAP ecosystem.</p>
+                        <div class="chips"><span>Kafka</span><span>TensorFlow</span><span>Event-driven</span></div>
+                    </article>
+
+                    <article class="project reveal" data-cat="platform">
+                        <div class="project-top">
+                            <span class="project-icon"><i class="fas fa-handshake" aria-hidden="true"></i></span>
+                            <span class="project-cat">Full-stack</span>
+                        </div>
+                        <h3>Enterprise AP/AR Partner Portal</h3>
+                        <p>A full-stack enterprise portal for accounts payable and receivable partner workflows, with federated partner authentication.</p>
+                        <div class="chips"><span>.NET Core</span><span>React.js</span><span>OAuth 2.0</span><span>SAML 2.0</span></div>
+                    </article>
+
+                    <article class="project reveal" data-cat="platform">
+                        <div class="project-top">
+                            <span class="project-icon"><i class="fas fa-file-signature" aria-hidden="true"></i></span>
+                            <span class="project-cat">Workflow</span>
+                        </div>
+                        <h3>Enterprise Digital Forms Platform</h3>
+                        <p>A custom digital forms platform for moving enterprise workflows off paper.</p>
+                        <div class="chips"><span>Workflow</span><span>Forms</span></div>
+                    </article>
+
+                    <article class="project reveal" data-cat="ai">
+                        <div class="project-top">
+                            <span class="project-icon"><i class="fas fa-industry" aria-hidden="true"></i></span>
+                            <span class="project-cat">Analytics</span>
+                        </div>
+                        <h3>Smart Manufacturing Analytics Dashboard</h3>
+                        <p>An analytics dashboard built around manufacturing operations data.</p>
+                        <div class="chips"><span>Manufacturing</span><span>Analytics</span></div>
+                    </article>
+
+                    <article class="project reveal" data-cat="platform">
+                        <div class="project-top">
+                            <span class="project-icon"><i class="fab fa-google" aria-hidden="true"></i></span>
+                            <span class="project-cat">Cloud</span>
+                        </div>
+                        <h3>Document Management System</h3>
+                        <p>A document management system deployed on Google Cloud Platform.</p>
+                        <div class="chips"><span>GCP</span><span>Document management</span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <header class="section-head">
+                    <p class="kicker">04 · Skills</p>
+                    <h2>Core skills &amp; technology</h2>
+                </header>
+                <div class="skills-grid">
+                    <div class="skill-card reveal">
+                        <h3><i class="fas fa-cubes" aria-hidden="true"></i> ERP &amp; SAP</h3>
+                        <div class="chips">
+                            <span>S/4HANA (Private &amp; Public Cloud / Rise)</span><span>SAP ECC</span><span>SAP BTP</span><span>CPI / Integration Suite</span><span>Event Mesh</span><span>API Management</span><span>Extension Suite / Build</span><span>MM / WM / PP / FI / CO / TM / IBP</span><span>SAP HANA</span><span>BW/4HANA</span><span>SAP Analytics Cloud</span><span>SAP Joule</span><span>Fiori / UI5</span><span>ABAP (released BADIs)</span><span>SAP ByDesign (C#)</span><span>Clean Core governance</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h3><i class="fas fa-robot" aria-hidden="true"></i> AI &amp; Agentic Systems</h3>
+                        <div class="chips">
+                            <span>Claude Code</span><span>Cursor</span><span>MCP-style tool calling</span><span>LangChain</span><span>RAG</span><span>Multi-agent orchestration</span><span>Microsoft Copilot</span><span>Embeddings</span><span>Vector retrieval</span><span>AI governance frameworks</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h3><i class="fas fa-cloud" aria-hidden="true"></i> Cloud &amp; Data Platforms</h3>
+                        <div class="chips">
+                            <span>Azure SQL / Elastic Pools</span><span>Azure Data Factory</span><span>Entra ID</span><span>Microsoft Fabric</span><span>Power BI</span><span>Google Cloud Platform</span><span>OneStream XF</span><span>Databricks (evaluated)</span><span>Snowflake (evaluated)</span><span>Salesforce (evaluated)</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h3><i class="fas fa-plug" aria-hidden="true"></i> Integration &amp; Development</h3>
+                        <div class="chips">
+                            <span>REST APIs</span><span>EDI / cXML</span><span>Event-driven architecture</span><span>C# / .NET Core</span><span>JavaScript / React.js</span><span>Kafka</span><span>TensorFlow</span><span>OAuth 2.0</span><span>SAML 2.0</span><span>SAP Multi-Bank Connectivity</span><span>NACHA / ACH</span><span>BAI2 / MT940</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h3><i class="fas fa-scale-balanced" aria-hidden="true"></i> Governance &amp; Architecture</h3>
+                        <div class="chips">
+                            <span>Architecture Review Board</span><span>TOGAF-aligned practice</span><span>EA standards</span><span>Data governance</span><span>Master data management</span><span>Identity &amp; access (SSO, RBAC)</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h3><i class="fas fa-screwdriver-wrench" aria-hidden="true"></i> Delivery &amp; Tooling</h3>
+                        <div class="chips">
+                            <span>Scrum / Agile</span><span>Playwright</span><span>GitLab CI/CD</span><span>Azure DevOps</span><span>ServiceNow</span><span>Ironclad CLM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="contact-card reveal">
+                    <div class="contact-copy">
+                        <p class="kicker">05 · Contact</p>
+                        <h2>Let's talk architecture, SAP, or AI</h2>
+                        <p>Happy to talk about enterprise architecture, SAP transformation, or putting AI to practical use in the enterprise.</p>
+                        <a href="mailto:dileepreddy380@gmail.com" class="btn btn-primary">Email me <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <div><span class="label">Email</span><a href="mailto:dileepreddy380@gmail.com">dileepreddy380@gmail.com</a></div>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone" aria-hidden="true"></i>
+                            <div><span class="label">Phone</span><a href="tel:+13613553298">+1 (361) 355-3298</a></div>
+                        </li>
+                        <li>
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            <div><span class="label">LinkedIn</span><a href="https://www.linkedin.com/in/dileep-reddy-karumuri-47288a16a" target="_blank" rel="noopener noreferrer">dileep-reddy-karumuri</a></div>
+                        </li>
+                        <li>
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <div><span class="label">GitHub</span><a href="https://github.com/Dileepreddy07" target="_blank" rel="noopener noreferrer">Dileepreddy07</a></div>
+                        </li>
+                        <li>
+                            <i class="fas fa-location-dot" aria-hidden="true"></i>
+                            <div><span class="label">Location</span><span>Savannah, GA</span></div>
+                        </li>
                     </ul>
                 </div>
-
-                <div class="experience-item">
-                    <div class="experience-title">Lead SAP/Data Architect (Contract)</div>
-                    <div class="experience-company">Zimmer Biomet | Warsaw, IN | Mar 2018 – Sep 2019</div>
-                    <p>Led technology and data architecture for enterprise supply chain and planning: SAP S/4HANA, SAP HANA, SAP IBP, Oracle, SQL Server; hybrid SAP solution design with business and IT leadership (95% project delivery success rate). Enterprise data warehouse (15+ business units, 500GB+ daily); reporting performance ~60% faster; self-service analytics for 300+ users; mentored a team of 8.</p>
-                </div>
-
-                <div class="experience-item">
-                    <div class="experience-title">Lead Data Consultant (Contract)</div>
-                    <div class="experience-company">Verizon | Remote | Jan 2017 – Mar 2018</div>
-                    <p>Enterprise data lake (50TB+), pipelines (2M+ daily transactions, under 2-hour latency), governance including GDPR; ML and Hadoop on large-scale unstructured advertising data. Managed $2M+ integration and analytics budget; documentation and training adopted by 50+ technical staff.</p>
-                </div>
-
-                <div class="experience-item">
-                    <div class="experience-title">Senior IT Engineer / Solutions Architect</div>
-                    <div class="experience-company">Brainsys Technologies | Bengaluru, India | Apr 2013 – Dec 2016</div>
-                    <p>Translated business requirements into integration and solution designs; technical liaison with customers and vendors; applications at 5,000+ concurrent users; <strong>3 patent applications and 2 publications</strong>. Implemented CI/CD pipelines and integrated heterogeneous technology stacks.</p>
-                </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Key Projects & Achievements</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-cloud-upload-alt" aria-hidden="true"></i></div>
-                        <h3>Cloud Migration & Modernization</h3>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-title">Enterprise Cloud Transformation</div>
-                        <div class="project-description">
-                            Led migration of 20+ on-premises databases to Azure SQL Elastic Pools, achieving 20% cost reduction and 99.9% uptime while improving disaster recovery capabilities.
-                        </div>
-                        <div class="project-technologies">
-                            <span class="tech-tag">Azure</span>
-                            <span class="tech-tag">SQL Elastic Pools</span>
-                            <span class="tech-tag">VMware</span>
-                            <span class="tech-tag">Docker</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-sitemap" aria-hidden="true"></i></div>
-                        <h3>Technology Consolidation</h3>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-title">System Unification Initiative</div>
-                        <div class="project-description">
-                            Consolidated 15+ redundant systems into 8 standardized platforms, eliminating technical debt and reducing licensing costs by $150K annually while improving operational efficiency.
-                        </div>
-                        <div class="project-technologies">
-                            <span class="tech-tag">Enterprise Architecture</span>
-                            <span class="tech-tag">TOGAF</span>
-                            <span class="tech-tag">System Integration</span>
-                            <span class="tech-tag">Cost Optimization</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-code" aria-hidden="true"></i></div>
-                        <h3>Full-Stack Development</h3>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-title">React Enterprise Applications</div>
-                        <div class="project-description">
-                            Architected and developed modern React applications with .NET Core backends, serving 1,000+ internal users and improving user experience scores by 45%.
-                        </div>
-                        <div class="project-technologies">
-                            <span class="tech-tag">React.js</span>
-                            <span class="tech-tag">.NET Core</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">Azure App Services</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-robot" aria-hidden="true"></i></div>
-                        <h3>Process Automation</h3>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-title">AP Automation & Integration</div>
-                        <div class="project-description">
-                            Implemented accounts payable automation affecting 500+ vendors, delivering 30% efficiency improvement and $200K annual cost savings through streamlined processes.
-                        </div>
-                        <div class="project-technologies">
-                            <span class="tech-tag">SAP</span>
-                            <span class="tech-tag">Oracle EBS</span>
-                            <span class="tech-tag">Process Automation</span>
-                            <span class="tech-tag">DevOps</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
-                        <h3>Data Analytics Platform</h3>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-title">Enterprise Data Warehouse</div>
-                        <div class="project-description">
-                            Designed scalable data warehouse serving 15+ business units with 500GB+ daily processing, enabling real-time analytics and improving reporting speed by 60%.
-                        </div>
-                        <div class="project-technologies">
-                            <span class="tech-tag">SAP HANA</span>
-                            <span class="tech-tag">Power BI</span>
-                            <span class="tech-tag">Informatica</span>
-                            <span class="tech-tag">SQL Server</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-shield-alt" aria-hidden="true"></i></div>
-                        <h3>Security & Compliance</h3>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-title">Enterprise Security Framework</div>
-                        <div class="project-description">
-                            Implemented comprehensive security architecture and data governance framework ensuring GDPR compliance across all enterprise data assets and cloud infrastructure.
-                        </div>
-                        <div class="project-technologies">
-                            <span class="tech-tag">Azure Security</span>
-                            <span class="tech-tag">GDPR Compliance</span>
-                            <span class="tech-tag">Data Governance</span>
-                            <span class="tech-tag">Risk Management</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Personal Projects Section -->
-    <section id="personal-projects" class="personal-projects">
-        <div class="container">
-            <h2 class="section-title">Personal Projects</h2>
-            <p class="personal-projects-lede">Hands-on builds that complement enterprise architecture work—integration, data, and UX patterns.</p>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-exchange-alt" aria-hidden="true"></i></div>
-                        <h3>Enterprise AP/AR Partner Portal</h3>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-title">B2B Integration Platform</div>
-                        <div class="project-description">
-                            Designed and developed a B2B portal integrating multiple ERP systems (<strong>SAP</strong>, <strong>Oracle</strong>) for AP/AR operations;
-                            microservices with .NET Core and React.js; OAuth 2.0 and SAML 2.0 for secure partner authentication and role-based access control.
-                        </div>
-                        <div class="project-technologies">
-                            <span class="tech-tag">.NET Core</span>
-                            <span class="tech-tag">React.js</span>
-                            <span class="tech-tag">SAP / Oracle</span>
-                            <span class="tech-tag">OAuth 2.0</span>
-                            <span class="tech-tag">SAML 2.0</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-file-alt" aria-hidden="true"></i></div>
-                        <h3>Enterprise Digital Forms Platform</h3>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-title">Forms Digitization Solution</div>
-                        <div class="project-description">
-                            Architected a forms digitization platform with form builder (50+ form types); workflow engine and integration with enterprise systems
-                            (<strong>SharePoint</strong>, <strong>SAP</strong>) via REST APIs and <strong>Azure Functions</strong>; document management with version control and audit trails.
-                        </div>
-                        <div class="project-technologies">
-                            <span class="tech-tag">React.js</span>
-                            <span class="tech-tag">SharePoint</span>
-                            <span class="tech-tag">SAP</span>
-                            <span class="tech-tag">Azure Functions</span>
-                            <span class="tech-tag">REST APIs</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-industry" aria-hidden="true"></i></div>
-                        <h3>Smart Manufacturing Analytics Dashboard</h3>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-title">IoT Manufacturing Analytics</div>
-                        <div class="project-description">
-                            Designed a manufacturing analytics platform (Python, React.js); integrated IoT and PLC data streams for predictive maintenance and quality control;
-                            anomaly detection and interactive dashboards.
-                        </div>
-                        <div class="project-technologies">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">React.js</span>
-                            <span class="tech-tag">IoT</span>
-                            <span class="tech-tag">PLC Integration</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
-                        <h3>Financial Market Analysis Platform</h3>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-title">ML-Powered Market Analysis</div>
-                        <div class="project-description">
-                            Built ML models using Python, TensorFlow, and scikit-learn to analyze market patterns; real-time pipeline with Apache Kafka for high-frequency data—
-                            exploratory work outside day-to-day enterprise programs.
-                        </div>
-                        <div class="project-technologies">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">TensorFlow</span>
-                            <span class="tech-tag">Apache Kafka</span>
-                            <span class="tech-tag">scikit-learn</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Connect</h3>
-                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:dileepreddy380@gmail.com">dileepreddy380@gmail.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                        <span>Savannah, Georgia</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone" aria-hidden="true"></i>
-                        <a href="tel:+13613553298">+1 (361) 355-3298</a>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com/in/dileep-reddy-karumuri-47288a16a" target="_blank" rel="noopener noreferrer" class="social-link">
-                            <i class="fab fa-linkedin" aria-hidden="true"></i>
-                            <span>LinkedIn</span>
-                        </a>
-                        <a href="https://github.com/Dileepreddy07" target="_blank" rel="noopener noreferrer" class="social-link">
-                            <i class="fab fa-github" aria-hidden="true"></i>
-                            <span>GitHub</span>
-                        </a>
-                        <a href="https://twitter.com/dileepreddy07" target="_blank" rel="noopener noreferrer" class="social-link">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                            <span>Twitter</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
     </main>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-social social-links">
-                <a href="https://www.linkedin.com/in/dileep-reddy-karumuri-47288a16a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-                <a href="https://github.com/Dileepreddy07" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
-                <a href="https://twitter.com/dileepreddy07" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-            </div>
-            <p>&copy; 2026 Dileep Reddy Karumuri. All rights reserved.</p>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; <span id="year">2026</span> Dileep Reddy Karumuri</p>
+            <a href="#home" class="to-top">Back to top <i class="fas fa-arrow-up" aria-hidden="true"></i></a>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
