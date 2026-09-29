@@ -942,6 +942,10 @@ strong {
     color: var(--muted);
 }
 
+.project-org {
+    color: var(--accent-2);
+}
+
 .project h3 {
     font-size: 1.12rem;
     margin-bottom: 0.5rem;
